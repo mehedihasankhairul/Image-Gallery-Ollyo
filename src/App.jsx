@@ -1,10 +1,10 @@
-import GalleryNav from "./components/GalleryNav";
+import Image from "./components/Image";
 
 function App() {
   return (
-    <div>
-      <GalleryNav />
-    </div>
+    <>
+      <Image />
+    </>
   );
 }
 
