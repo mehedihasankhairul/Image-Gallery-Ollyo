@@ -4,34 +4,38 @@
 ## Introduction
 
 ## Features
-- Sorting images based on various criteria (date, name, size, etc.).
+- Sorting images based on draging. 
 - Drag and drop functionality for arranging images within the gallery.
 - Upload images using a user-friendly interface.
 - Deletion of individual or multiple images.
 
 ## Getting Started
-Explanation of how to install, configure, and use the project.
+
+### Prerequisites
+
+Before getting started, ensure you have the following installed:
+- Node.js (v14.0 or later)
+- npm (Node Package Manager) or yarn
 
 ### Installation
-Step-by-step guide for installing the project.
 
-### Configuration
-Details about how to configure the project.
+1. **Clone the Repository**
 
-## Usage
-Instructions on how to use the project's features, along with code examples.
+   ```bash
+   git clone https://github.com/mehedihasankhairul/Image-Gallery-Ollyo.git
 
-## Examples
-Demonstrative examples or use cases.
+   cd Image-Gallery-Ollyo
 
-## Troubleshooting
-Common issues and their solutions.
+   npm install or yarn
 
-## Additional Resources
-Links to relevant external resources.
+   npm run dev or yarn dev
 
-## Contributing
-Guidelines for contributors.
+   ```
+
+
+
+## Live-url
+
 
 ## License
-Information about the project's license.
+- Mehedi Hasan Khairul
