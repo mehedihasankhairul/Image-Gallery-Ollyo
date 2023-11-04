@@ -2,13 +2,14 @@
 
 
 ## Image
-![image](ogallery.PNG)
+![ScreenShort](https://github.com/mehedihasankhairul/Image-Gallery-Ollyo/assets/55708248/5738ece5-a19e-4b9e-a9cd-992c94a105bd)
 
 ## Features
 - Sorting images based on draging. 
 - Drag and drop functionality for arranging images within the gallery.
 - Upload images using a user-friendly interface.
 - Deletion of individual or multiple images.
+
 
 ## Getting Started
 
