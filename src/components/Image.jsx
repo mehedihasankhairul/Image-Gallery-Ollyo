@@ -3,7 +3,6 @@ import images from "../../data.json";
 import GalleryNav from "./GalleryNav";
 import ImageGallery from "./ImageGallery";
 import UploadImage from "./UploadImage";
-import { BsCheckLg } from "react-icons/bs";
 
 const Image = () => {
   const [myImages, setMyImages] = useState(images);
@@ -15,7 +14,6 @@ const Image = () => {
 
   const handleFileUpload = (e) => {
     const selectedImage = e.target.files;
-    console.log(selectedImage)
 
     const newImages = Array.from(selectedImage).map((image, index) => {
       const id = myImages.length + index + 1;
@@ -37,13 +35,6 @@ const Image = () => {
 
     setMyImages(updatedImages);
     setSelectImages([]);
-    // toast("Image Deleted.", {
-    //   duration: 3000,
-    //   style: {
-    //     background: "red",
-    //     color: "white",
-    //   },
-    // });
   };
 
   const handleDragStart = (image) => {
