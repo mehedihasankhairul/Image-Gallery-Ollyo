@@ -1,7 +1,8 @@
 # Image Gallery Ollyo Test
 
 
-## Introduction
+## Image
+![image](files://C:\Users\PC\Downloads\ogallery.png)
 
 ## Features
 - Sorting images based on draging. 
