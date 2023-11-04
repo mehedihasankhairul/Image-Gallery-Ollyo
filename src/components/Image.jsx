@@ -3,6 +3,7 @@ import images from "../../data.json";
 import GalleryNav from "./GalleryNav";
 import ImageGallery from "./ImageGallery";
 import UploadImage from "./UploadImage";
+import { BsCheckLg } from "react-icons/bs";
 
 const Image = () => {
   const [myImages, setMyImages] = useState(images);
@@ -13,24 +14,22 @@ const Image = () => {
   const [draggedIndex, setDraggedIndex] = useState(null);
 
   const handleFileUpload = (e) => {
-    const selectedFiles = e.target.files;
+    const selectedImage = e.target.files;
+    console.log(selectedImage)
 
-    const newImages = Array.from(selectedFiles).map((file, index) => {
+    const newImages = Array.from(selectedImage).map((image, index) => {
       const id = myImages.length + index + 1;
-      const imageURL = URL.createObjectURL(file);
+      
+      const uploadedImage = URL.createObjectURL(image)
 
-      return { id, images: imageURL };
+
+      return { id, image: uploadedImage };
     });
+    console.log(newImages, myImages)
 
     setMyImages([...myImages, ...newImages]);
 
-    // toast("Image Uploaded.", {
-    //   duration: 3000,
-    //   style: {
-    //     background: "green",
-    //     color: "white",
-    //   },
-    // });
+    console.log(myImages, newImages)
   };
 
   const handleDeleteFile = () => {

@@ -15,7 +15,7 @@ const UploadImage = ({ handleFileUpload }) => {
       />
       <div className="h-full w-full flex flex-col justify-center items-center gap-y-4">
         <BsImage height="48" width="48" />
-        <span className="whitespace-nowrap text-xl">Add Images</span>
+        <span className="whitespace-nowrap text-lg">Add Images</span>
       </div>
     </div>
   );
