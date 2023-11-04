@@ -2,7 +2,7 @@
 
 
 ## Image
-![image](files://C:\Users\PC\Downloads\ogallery.png)
+![image](ogallery.PNG)
 
 ## Features
 - Sorting images based on draging. 
